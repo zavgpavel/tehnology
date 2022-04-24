@@ -75,6 +75,9 @@
 		a {
 			color: #ffffff;
 		}
+		a:hover {
+			color: #ffa903;
+		}
 
 		&_orange {
 			width: 308px;
@@ -83,6 +86,9 @@
 			padding-top: 31px;
 			a {
 				color: #ffffff;
+			}
+			a:hover {
+				color: #0a45bb;
 			}
 		}
 	}
