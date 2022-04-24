@@ -1,0 +1,49 @@
+.study {
+	margin-top: 100px;
+}
+.container {
+	&__study {
+	}
+}
+.title {
+	&__study {
+	}
+}
+.study-wrapper {
+	height: 620px;
+	display: grid;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+	gap: 40px;
+	margin-top: 45px;
+}
+.wrapper-item {
+	width: 350px;
+	height: 180px;
+	background: #f4f9fb;
+	border-radius: 50px 4px;
+	position: relative;
+
+	&__title {
+		margin-top: 37px;
+		margin-left: 45px;
+		width: 253px;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 150%;
+	}
+	a {
+		color: #0072c5;
+	}
+	a:hover {
+		color: #1d5278;
+		text-decoration: underline;
+	}
+	&__link {
+		position: absolute;
+		left: 45px;
+		bottom: 35px;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 135%;
+	}
+}
