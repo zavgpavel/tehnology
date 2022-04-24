@@ -1,0 +1,110 @@
+.nav {
+	height: 82px;
+	background: $main-color;
+	form {
+		background: #1450c9;
+		position: relative;
+	}
+	&__search {
+		background: $main-color;
+		padding-top: 20px;
+		padding-left: 34px;
+		button,
+		input {
+			border: none;
+			outline: none;
+			background: transparent;
+		}
+		input {
+			width: 100%;
+			height: 42px;
+			padding-left: 15px;
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 16px;
+			color: #6091f1;
+		}
+		input::placeholder {
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 16px;
+			color: #6091f1;
+		}
+		button {
+			height: 42px;
+			width: 42px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			cursor: pointer;
+		}
+		button:before {
+			content: "\f002";
+			font-family: FontAwesome;
+			font-size: 16px;
+			color: #f9f0da;
+			background: #1450c9;
+		}
+	}
+}
+.container-nav {
+	background: $main-color;
+	height: 100%;
+}
+.search__form {
+	width: 180px;
+	height: 44px;
+
+	background: $main-color;
+	border-radius: 4px;
+}
+.wrapper {
+	display: flex;
+	height: 100%;
+	background: $main-color;
+}
+.items {
+	display: flex;
+	margin-bottom: 0;
+	align-items: center;
+	background: $main-color;
+
+	&__elem {
+		background: $main-color;
+		padding-left: 40px;
+		a {
+			color: #ffffff;
+		}
+
+		&_orange {
+			width: 308px;
+			height: 100%;
+			background: $second-color;
+			padding-top: 31px;
+			a {
+				color: #ffffff;
+			}
+		}
+	}
+
+	&__line {
+		background: $second-color;
+		padding: 0px 8px 0 32px;
+	}
+
+	&__link {
+		font-weight: 700;
+		font-size: 13px;
+		line-height: 18px;
+		/* identical to box height */
+
+		text-transform: uppercase;
+		&_orange {
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 20px;
+			text-transform: uppercase;
+			letter-spacing: 0.01em;
+		}
+	}
+}

@@ -1,0 +1,77 @@
+.main {
+	margin-top: 60px;
+}
+
+.container-main {
+}
+
+.swiper {
+	height: 600px;
+	&__img {
+		position: absolute;
+		right: 0px;
+	}
+	&__fone {
+		position: absolute;
+		width: 670px;
+		height: 600px;
+		left: 0px;
+		top: 0px;
+		background: #0072c5;
+		border-radius: 4px 0px 100px 4px;
+	}
+	&__title {
+		position: absolute;
+		width: 460px;
+		height: 90px;
+		left: 94px;
+		top: 194px;
+		font-weight: 800;
+		font-size: 33px;
+		line-height: 130%;
+		color: hsl(0, 0%, 100%);
+		z-index: 3;
+	}
+	&__text {
+		position: absolute;
+		width: 467px;
+		height: 128px;
+		left: 94px;
+		top: 309px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 180%;
+		color: #ffffff;
+		letter-spacing: 0.9px;
+		&_2 {
+			position: absolute;
+			width: 419px;
+			height: 200px;
+			left: 117px;
+			top: 204px;
+			font-weight: 400;
+			font-size: 22px;
+			line-height: 180%;
+			color: #ffffff;
+			letter-spacing: 0.9px;
+			z-index: 3;
+		}
+	}
+	&__list {
+		position: absolute;
+		width: 111px;
+		height: 63px;
+		left: 60px;
+		top: 160px;
+		background: #0a45bb;
+		border-radius: 100px 8px;
+		z-index: 2;
+	}
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+	position: relative;
+}
+.swiper-pagination {
+}
