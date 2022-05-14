@@ -1,0 +1,66 @@
+.footer {
+	height: 187px;
+	background: $main-color;
+}
+
+.container-footer {
+	background: $main-color;
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	height: 100%;
+	background: $main-color;
+}
+.items {
+	display: flex;
+	margin-bottom: 0;
+	align-items: center;
+	background: $main-color;
+
+	&__elem {
+		background: $main-color;
+		padding-left: 40px;
+		a {
+			color: #ffffff;
+		}
+		a:hover {
+			color: #ffa903;
+		}
+
+		&_orange {
+			width: 308px;
+			height: 100%;
+			background: $second-color;
+			padding-top: 31px;
+			a {
+				color: #ffffff;
+			}
+			a:hover {
+				color: #0a45bb;
+			}
+		}
+	}
+
+	&__line {
+		background: $second-color;
+		padding: 0px 8px 0 32px;
+	}
+
+	&__link {
+		font-weight: 700;
+		font-size: 13px;
+		line-height: 18px;
+		/* identical to box height */
+
+		text-transform: uppercase;
+		&_orange {
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 20px;
+			text-transform: uppercase;
+			letter-spacing: 0.01em;
+		}
+	}
+}
