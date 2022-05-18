@@ -1,0 +1,42 @@
+.down {
+	height: 76px;
+	background: #093ca4;
+	&__wrapper {
+	}
+}
+.down-container {
+	height: 100%;
+}
+.wrapper-down {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__item {
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 145%;
+		color: #ffffff;
+		&_center {
+			margin-right: 90px;
+			margin-top: 9px;
+			img {
+				vertical-align: middle;
+			}
+		}
+	}
+	&__policy a {
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 100%;
+		color: #ffffff;
+	}
+}
+.face {
+	margin-right: 35px;
+}
+.inst {
+	margin-right: 35px;
+}
+.vk {
+}

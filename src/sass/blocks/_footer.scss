@@ -21,7 +21,7 @@
 
 	&__elem {
 		background: $main-color;
-		padding-left: 40px;
+		padding-left: 33px;
 		a {
 			color: #ffffff;
 		}
@@ -52,6 +52,7 @@
 		font-weight: 700;
 		font-size: 13px;
 		line-height: 18px;
+		white-space: nowrap;
 		/* identical to box height */
 
 		text-transform: uppercase;
@@ -62,5 +63,36 @@
 			text-transform: uppercase;
 			letter-spacing: 0.01em;
 		}
+	}
+}
+.connection-items {
+	margin-left: 100px;
+	&__tel {
+		display: block;
+		margin-top: 50px;
+		font-weight: 800;
+		font-size: 23px;
+		line-height: 33px;
+		color: #ffffff;
+		margin-bottom: 16px;
+	}
+
+	&__img {
+		margin-left: 12px;
+		margin-top: 3px;
+	}
+
+	// .connection-items__link
+
+	&__link {
+		display: inline-block;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 19px;
+		color: #ffffff !important;
+	}
+	&__mail {
+		margin-left: 101px;
+		margin-top: 3px;
 	}
 }
